@@ -16,7 +16,7 @@ def enablePrint():
 
 blockPrint()
 import datetime
-import isceobj
+from isce.components import isceobj
 import numpy as np
 from miaplpy.objects.arg_parser import MiaplPyParser
 import h5py

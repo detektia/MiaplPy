@@ -10,7 +10,7 @@ from libc.stdio cimport printf
 from miaplpy.objects.slcStack import slcStack
 import h5py
 import time
-from isceobj.Util.ImageUtil import ImageLib as IML
+from isce.components.isceobj.Util.ImageUtil import ImageLib as IML
 
 
 

@@ -20,8 +20,8 @@ def enablePrint():
 
 blockPrint()
 #import isce
-import isceobj
-from isceobj.Util.ImageUtil import ImageLib as IML
+from isce.components import isceobj
+from isce.components.isceobj.Util.ImageUtil import ImageLib as IML
 from contrib.UnwrapComp.unwrapComponents import UnwrapComponents
 from miaplpy.objects.arg_parser import MiaplPyParser
 import numpy as np
